@@ -1,73 +1,29 @@
-# ![Assessment 1][banner]
+# Assessment 1
+Datavisualisatie
 
-This repository can be forked for [**assessment 1**][a1] of [Frontend 3][fe3]
-at [**@CMDA**][cmda].
+## Background
+Voor de eerste assessment van het van Frontend 3 heb ik een datavisualisatie gemaakt met gebruik van d3. Ik heb als basis een simpele bar chart gebruikt. De bar chart vond ik maar saai en ik wilde iets toevoegen van animaties. Ik vond het niet volgens de opdracht om CSS trantisities toe te voegen, (al had dat me veel tijd gescheeld) dus ben ik gaan zoeken naar d3 transitions.
 
-## TODO
+Ik heb lang gezocht en een hoop transitions geprobeerd te implementeren zonder veel geluk. Veel van deze transitions maakten gebruik van de SVG die gemaakt was in HTML, hun charts waren veel ingewikkelder dan de mijne. Ik snapte dus niet goed hoe ik de code kon omzetten. Toen vond ik dat iemand een animatie had gemaakt met dezelfde basis chart als ik, hoera! Deze code snapte ik wel en kon ik dus ook implementeren. Op dezelfde manier vond ik ook iemand die de basis bar chart had gebruikt met het maken van een tooltip. 
 
-*   [ ] [GitHub Pages](#github-pages)
-*   [ ] [Metadata](#metadata)
-*   [ ] [Workflow](#workflow)
-*   [ ] Replace this document in your fork with your own readme!
+Nu was het aan mij om alle code te combineren en er voor te zorgen dat ik het allemaal (of zo veel mogelijk) snapte. Ik ben erg trots op het eindresultaat, ook al ziet het er maar simpel uit.
 
-## GitHub Pages
 
-Set up [GitHub Pages][pages] for this fork through the **Settings** pane.  Use
-the **Master branch** as its source.
+## Data
+De data is vanuit een TSV file die gaat over het aantal sprekers van populaire talen. Weergegeven als een simpele barchart.
 
-## Metadata
+## Features
+Redrawing and animated transitions
 
-Edit the **description** and **url** of your repository.  Click on edit above
-the green Clone or download button and fill in your correct information.
+ *   ![d3-dsv](https://github.com/d3/d3-dsv) - parse tab-separated values
+ *   ![d3-format](https://github.com/d3/d3-format) - number formatting
+ *   ![d3-scale](https://github.com/d3/d3-scale) - position encodings
+ *   ![d3-array](https://github.com/d3/d3-array) - data processing
+ *   ![d3-axis](https://github.com/d3/d3-axis) - axes
+ *   ![d3-tip](https://github.com/caged/d3-tip) - tooltip
 
-## Workflow
 
-How you go about your project is up to you other than that it must meet the
-given requirements.  The following steps may help to tackle this challenge
-though.
+## License
 
-###### Explore
+Released under the ![GNU General Public License, version 3.](https://opensource.org/licenses/GPL-3.0)
 
-Explore the [data][].  Make sense of the rows, columns, and what they contain.
-Investigate interesting aspects and possible outcomes.  Figure out what type of
-chart you want and sketch your visualisation.
-
-List the features needed to make your chart work and make sure they match our
-[rubric][].  For example, pie charts or donut charts often lack features needed
-to get good grades in the **application of subject matter** category.  You must
-compensate with other useful features to get a good grade in this case.
-
-Pick the most enticing data and copy it to your fork.
-
-###### Process
-
-Describe the purpose and background of your visualisation in your fork’s readme.
-Portray your data and list the d3 features.
-
-Start writing code.  Feel free to use example code found on the web but make
-sure to include correct citations.  Use inline code comments to describe
-anything of interest.  Don’t forget to document your process.
-
-###### Review
-
-Finish up your readme and review your project.  Audit the code and docs.
-Evaluate whether the project matches our [rubric][] and make changes where
-needed.
-
-Include anything you’re particularly proud of and mention anything that was
-exceptionally hard to accomplish in your readme to make sure lecturers don’t
-miss it!  🌟
-
-[banner]: https://cdn.rawgit.com/cmda-fe3/logo/3b150735/banner-assessment-1.svg
-
-[a1]: https://github.com/cmda-fe3/course-17-18/tree/master/assessment-1#description
-
-[data]: https://github.com/cmda-fe3/course-17-18/tree/master/assessment-1#data
-
-[rubric]: https://github.com/cmda-fe3/course-17-18/tree/master/assessment-1#rubric
-
-[fe3]: https://github.com/cmda-fe3
-
-[cmda]: https://github.com/cmda
-
-[pages]: https://pages.github.com
