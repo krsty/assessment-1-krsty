@@ -22,8 +22,9 @@ Redrawing and animated transitions
  *   ![d3-axis](https://github.com/d3/d3-axis) - axes
  *   ![d3-tip](https://github.com/caged/d3-tip) - tooltip
 
-
 ## License
 
 Released under the ![GNU General Public License, version 3.](https://opensource.org/licenses/GPL-3.0)
 
+
+![Preview Assessment 1](preview.png).
