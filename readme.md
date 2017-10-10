@@ -1,7 +1,7 @@
 # Assessment 1
 Datavisualisation
 
-![Preview Assessment 1](preview.png).
+![Preview Assessment 1](preview.png)
 
 ## Background
 I have made a data visualisation with d3 for the first assessment of the Frontend 3 course. For the base of my code I used a simple bar chart that I found. I thought that this base was a bit too simple and decided to add some things to it. I wanted to add some transitions,  not using CSS but with DOM manipulation through d3. 
